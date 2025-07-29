@@ -7,7 +7,11 @@ async function getCharacters(name){
 }
 
 async function main(){
+<<<<<<< HEAD
     const characterData = await getCharacters('morty');
+=======
+    const characterData = await getCharacters('artisticmorty');
+>>>>>>> ed04ce8 (feat: aterações no codigo)
     console.log(characterData);
 
 }

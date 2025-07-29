@@ -7,7 +7,7 @@ async function getCharacters(character){
 }
 
 async function main(){
-    const characterData = await getCharacters('aristisc morty');
+    const characterData = await getCharacters('artistic morty');
     console.log(characterData);
 
 }
